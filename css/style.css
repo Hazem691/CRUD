@@ -1,0 +1,17 @@
+@font-face{
+    font-family: Anton-Regular;
+    src: url(../fonts/Anton/Anton-Regular.ttf);
+}
+
+h1{
+    font-family: Anton-Regular;
+}
+body{
+    /* background-image: url(../images/428b5d8fb2ee9d82a198bb1abb1c370d.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; */
+
+    background: linear-gradient(to bottom right, #ffcc00, #ff6699);
+    
+}

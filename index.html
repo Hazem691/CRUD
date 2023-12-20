@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container ">
+        <h1 class="py-5 text-center display-3 text-light">BookMarker</h1>
+         <div class="d-flex justify-content-center align-items-center ">
+            <i class="fa-solid fa-bookmark text-light pe-2 fw-bolde fs-3"></i><p class="py-2  display-6 fw-bolder text-light ">Book your favorite sites</p><i class="fa-solid fa-bookmark text-light ps-2 fw-bolder fs-3"></i>
+         </div>
+        
+
+        <label for="siteName" class="text-light">Site Name</label>
+        <input type="text" class="form-control mb-3" id="siteName" placeholder="Bookmark Name" oninput="validateName()">
+
+        <label for="siteURL" class="text-light">Site URL</label>
+        <input type="text" class="form-control mb-3" id="siteURL" placeholder="Bookmark URL" oninput="validateURL()">  
+        <small class="text-danger d-none " id="error-msg" >The URL should starts with [http://www.Application Name.com]</small>
+
+
+        <div class="d-flex justify-content-center py-3">
+            <button class="btn btn-danger text-center px-3" onclick="createsite()">Submit</button>
+        </div>
+
+
+
+
+        
+    </div>
+
+    <table class="table w-75 mx-auto">
+        <thead class="text-center">
+            <tr>
+                <th>Index</th>
+                <th>Website Name</th>
+                <th>Visite</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+
+        <tbody class=" mx-auto text-center" id="data">
+            
+        </tbody>
+    </table>
+    <script src="./js/all.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/home.js"></script>
+</body>
+</html>
