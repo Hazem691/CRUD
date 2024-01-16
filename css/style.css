@@ -7,10 +7,6 @@ h1{
     font-family: Anton-Regular;
 }
 body{
-    /* background-image: url(../images/428b5d8fb2ee9d82a198bb1abb1c370d.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center; */
     height: 100vh;
     background-color: #8EC5FC;
     background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
